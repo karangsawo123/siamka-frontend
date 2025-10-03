@@ -26,7 +26,7 @@ function App() {
           setLoading(false);
         })
         .catch(() => {
-          localStorage.removeItem("token"); // kalau token expired/hilang
+          localStorage.removeItem("token");
           setUser(null);
           setLoading(false);
         });
