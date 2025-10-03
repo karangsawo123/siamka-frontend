@@ -1,0 +1,88 @@
+/* Container full screen */
+.login-container {
+  display: flex;
+  align-items: center;      /* vertikal center */
+  justify-content: center;  /* horizontal center */
+  width: 100%;              /* penuh horizontal */
+  height: 100vh;            /* penuh tinggi layar */
+  background: linear-gradient(135deg, #00274d, #f1c40f); /* biru tua → emas */
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;                /* hilangkan margin bawaan */
+  padding: 0;               /* hilangkan padding bawaan */
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Card form */
+.login-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Logo */
+.login-logo {
+  width: 90px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Judul */
+.login-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00274d;
+  margin-bottom: 8px;
+}
+
+/* Subjudul */
+.login-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Input */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Tombol */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background: #00274d; /* biru tua */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: #004080;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #777;
+}
+
+
